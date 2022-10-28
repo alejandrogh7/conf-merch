@@ -3,9 +3,7 @@ import '../styles/components/Home.css';
 import Products from '../components/Products';
 
 const Home = () => {
-  return (
-    <Products />
-  );
+  return <Products />;
 };
 
 export default Home;

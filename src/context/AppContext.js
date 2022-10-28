@@ -6,9 +6,9 @@ const AppContext = createContext(null);
 export function AppContextProvider({ children }) {
   const initialState = useInitialState();
 
-  return <AppContext.Provider value={ initialState }>
-    { children }
-  </AppContext.Provider>;
+  return (
+    <AppContext.Provider value={initialState}>{children}</AppContext.Provider>
+  );
 }
 
 export default AppContext;
