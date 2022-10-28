@@ -23,7 +23,7 @@ const Information = () => {
           </form>
         </div>
         <div className="Information-buttons">
-          <Link to="/checkout/information">
+          <Link to="/checkout">
             <div className="Information-back">Regresar</div>
           </Link>
           <Link to="/checkout/payment">
